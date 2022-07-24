@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/tufarma
-    username: root
-    password:
+    url: jdbc:mysql://dash-rw-qa.dbc.chenmed.local:3306/DASHBOARD_PROD
+    username: lsql_edwing
+    password: PBYvPWo0&13
   jpa:
     show-sql: true
     hibernate:

@@ -8,6 +8,7 @@ import java.util.Date;
 //Mapping this class as a table user on my db with jpa
 
 @Entity
+//@Table(name="USERS")
 public class User implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
